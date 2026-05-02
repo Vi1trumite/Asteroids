@@ -16,25 +16,23 @@ pip install pygame
 - python main.py
 
 # Controls
-Key        Action
----------  ----------------
-W          Thrust forward
-S          Thrust backward
-A          Rotate left
-D          Rotate right
-Space      Shoot
+Key - Action
+- W - Thrust forward
+- S - Thrust backward
+- A - Rotate left
+- D - Rotate right
+- Space - Shoot
 
 # Gameplay
 - Survive as long as possible by shooting asteroids before they hit you. Large asteroids split into two smaller, faster ones when shot. The game ends when an asteroid collides with your ship.
 
 # Project Structure
-File                Description
-------------------  -----------------------------------------
-- main.py           Game loop and entry point
-- player.py         Player ship logic and controls
-- asteroid.py       Asteroid behavior and splitting
-- asteroidfield.py  Asteroid spawning system
-- shot.py           Projectile logic
-- circleshape.py    Base class for circular game objects
-- constants.py      Game configuration values
-- logger.py         Debug logging utilities
+File - Description
+- main.py - Game loop and entry point
+- player.py - Player ship logic and controls
+- asteroid.py - Asteroid behavior and splitting
+- asteroidfield.py - Asteroid spawning system
+- shot.py - Projectile logic
+- circleshape.py - Base class for circular game objects
+- constants.py - Game configuration values
+- logger.py - Debug logging utilities
